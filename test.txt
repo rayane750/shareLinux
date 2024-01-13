@@ -1,3 +1,11 @@
+[global]
+workgroup = STI4A-INSA-CVL
+server string = Serveur Samba sur %L
+netbios name = votre_nomBox
+security = user
+map to guest = bad user
+dns proxy = no
+
 [allusers]
 comment = Tous les utilisateurs
 path = /var/samba/allusers
